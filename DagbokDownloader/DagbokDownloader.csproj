@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Drive.v3" Version="1.47.0.1995" />
+  </ItemGroup>
+
 </Project>
