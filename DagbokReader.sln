@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DagbokReader", "DagbokReader\DagbokReader.csproj", "{4A183385-5ECE-4E7E-A4F2-641DD5E00E36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A183385-5ECE-4E7E-A4F2-641DD5E00E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A183385-5ECE-4E7E-A4F2-641DD5E00E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A183385-5ECE-4E7E-A4F2-641DD5E00E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A183385-5ECE-4E7E-A4F2-641DD5E00E36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56841CCC-E87E-4EE1-A2FD-03F0E7E51FA9}
+	EndGlobalSection
+EndGlobal
