@@ -1,4 +1,5 @@
 ﻿using System;
+using DagbokDownloader;
 
 namespace DagbokReader
 {
@@ -6,7 +7,12 @@ namespace DagbokReader
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			Downloader downloader = new Downloader();
+
+			foreach (Downloader.FileIdentifier file in downloader.QueryForFiles("20-26 22 juni - 28 juni"))
+			{
+				Console.WriteLine("File: (" + file.name + ", " + file.fileId +")");
+			}
 		}
 	}
 }
