@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DagbokReader", "DagbokReader\DagbokReader.csproj", "{4A183385-5ECE-4E7E-A4F2-641DD5E00E36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DagbokDownloader", "DagbokDownloader\DagbokDownloader.csproj", "{EED1B610-A351-4CEC-BB62-CC001DD5603D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4A183385-5ECE-4E7E-A4F2-641DD5E00E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A183385-5ECE-4E7E-A4F2-641DD5E00E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A183385-5ECE-4E7E-A4F2-641DD5E00E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EED1B610-A351-4CEC-BB62-CC001DD5603D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED1B610-A351-4CEC-BB62-CC001DD5603D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EED1B610-A351-4CEC-BB62-CC001DD5603D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EED1B610-A351-4CEC-BB62-CC001DD5603D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
