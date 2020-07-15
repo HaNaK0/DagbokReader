@@ -57,6 +57,8 @@ namespace DagbokDownloader
 				fileId = id;
 			}
 
+			public new string ToString => "File(name: " + name + ", id:" + fileId + ")";
+
 			public readonly string name;
 			public readonly string fileId;
 		}
@@ -85,6 +87,13 @@ namespace DagbokDownloader
 			} while (pageToken != null);
 
 			yield break;
+		}
+
+		public void DownloadFile(string fileId, ref Stream stream)
+		{
+			Google.Apis.Download.IDownloadProgress result = driveService.Files.Export(fileId, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet").DownloadWithStatus(stream);
+
+			Console.WriteLine(result);
 		}
 	}
 }
