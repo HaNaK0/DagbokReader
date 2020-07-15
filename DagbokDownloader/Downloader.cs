@@ -13,14 +13,13 @@ using System.Threading.Tasks;
 
 namespace DagbokDownloader
 {
-	public class Downloader
+	public class Downloader : IDisposable
 	{
 		// If modifying these scopes, delete your previously saved credentials
 		// at ~/.credentials/drive-dotnet-quickstart.json
 		static string[] Scopes = { DriveService.Scope.DriveReadonly };
 		static string ApplicationName = "Drive API .NET Quickstart";
-
-		DriveService driveService;
+		readonly DriveService driveService;
 
 		public Downloader()
 		{
@@ -94,6 +93,11 @@ namespace DagbokDownloader
 			Google.Apis.Download.IDownloadProgress result = driveService.Files.Export(fileId, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet").DownloadWithStatus(stream);
 
 			Console.WriteLine(result);
+		}
+
+		public void Dispose()
+		{
+			driveService.Dispose();
 		}
 	}
 }
