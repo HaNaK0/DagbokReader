@@ -4,5 +4,6 @@ namespace DagbokTranslator
 {
 	public class Translator
 	{
+
 	}
 }
