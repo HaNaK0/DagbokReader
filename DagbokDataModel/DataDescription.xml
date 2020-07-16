@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<DataModelDescription version="1.0">
+  <Rows>
+    <Row id="0" name="TextFallback">
+      <String name="falbackString"/>
+    </Row>
+    <Row id="1" name="DagbokRow">
+      <Time name="Time"/>
+      <Destination name="Destination"/>
+      <Number name="Persons"/>
+      <Boat name="Boat"/>
+      <Crew name="Skipper"/>
+      <Crew name="Deckhand"/>
+      <String name="Trailer"/>
+      <String name="Note"/>
+      <Crew name="Sign"/>
+    </Row>
+  </Rows>
+  <Types>
+    <Type name="Time" size="16"/>
+    <Type name="Destination" size="8"/>
+    <Type name="Number" size="8"/>
+    <Type name="Boat" size="4"/>
+    <Type name="Crew" size="8"/>
+    <type name="String" size ="8"/>
+  </Types>
+</DataModelDescription>
