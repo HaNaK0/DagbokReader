@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<SaticData version="1.0">
+  <Boats version="1">
+    NULL;
+    Grisslan, G;
+    Måsen, M;
+    Tärnan, T;
+    Wallenius Marine, W, WM;
+  </Boats>
+  <Destinations version="1">
+    NULL;
+    Vässarö, Vö;
+    Strömsviken, Sv;
+    Öregrund, Öre;
+    Äspskär, Äsp;
+  </Destinations>
+  <Strings vesrion="1">
+    NULL;
+  </Strings>
+  <Crew file="crew.txt"/>
+</SaticData>

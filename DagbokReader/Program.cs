@@ -42,12 +42,13 @@ namespace DagbokReader
 			Console.WriteLine("Will use file " + file.ToString);
 			string tagetFilePath = file.name + ".xlsx";
 
-			
 			using (FileStream fileStream = File.Open(tagetFilePath, FileMode.Create))
 			{
 				Stream stream = fileStream;
 				downloader.DownloadFile(file.fileId, ref stream);
 			}
+
+
 		}
 
 		private static int ConsoleReadInt(int min, int max)

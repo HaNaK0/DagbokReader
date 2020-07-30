@@ -17,11 +17,11 @@
       <Crew name="Sign"/>
     </Row>
   </Rows>
-  <Types>
+  <Types idSize="8">
     <Type name="Time" size="16"/>
     <Type name="Destination" size="8"/>
     <Type name="Number" size="8"/>
-    <Type name="Boat" size="4"/>
+    <Type name="Boat" size="8"/>
     <Type name="Crew" size="8"/>
     <type name="String" size ="8"/>
   </Types>
